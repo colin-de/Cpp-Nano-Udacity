@@ -91,20 +91,19 @@ float LinuxParser::MemoryUtilization() {
   }
   return 0.0; 
 }
+}
 
 // TODO: Read and return the system uptime
 long LinuxParser::UpTime() { 
-  long uptime_;
-  string uptime, idletime, line;
-  std:ifstream stream(kProcDirectory + kUptimeFilename);
+  string uptime, line;
+  std::ifstream stream(kProcDirectory + kUptimeFilename);
   if (stream.is_open()){
     std::getline(stream, line);
-    std::isstringstream linestream(line);
-    linestream >> uptime >> idletime;
-    uptime_ = std::stol(uptime);//std::stol change the string into long
-    return uptime_; 
+    std::istringstream linestream(line);
+    linestream >> uptime;
+    //std::stol change the string into long
+    return stol(uptime); 
   }
-  
   return 0; 
 }
   
@@ -130,7 +129,7 @@ long LinuxParser::ActiveJiffies(int pid) {
   std::ifstream stream(kProcDirectory + to_string(pid) + kStatFilename);
   if (stream.is_open()){
     std::getline(stream, line);
-    std:istringstream linestream(line);
+    std::istringstream linestream(line);
     int i = 0;
     while (linestream >> value){
       if (i >=13 && i <= 16) {
@@ -145,7 +144,7 @@ long LinuxParser::ActiveJiffies(int pid) {
 
 // TODO: Read and return the number of active jiffies for the system
 long LinuxParser::ActiveJiffies() { 
-  return LinuxParser::Jiffies() - LinuxParser::idleJiffies(); 
+  return LinuxParser::Jiffies() - LinuxParser::IdleJiffies(); 
 }
 
 // TODO: Read and return the number of idle jiffies for the system
@@ -181,8 +180,8 @@ int LinuxParser::TotalProcesses() {
   string key, t_process, line;
   std::ifstream stream(kProcDirectory + kStatFilename);
   if (stream.is_open()){
-    while (std::getline(stream, line){
-      std::isstringstream linestream(line);
+    while (std::getline(stream, line)){
+      std::istringstream linestream(line);
       while (linestream >> key >> t_process){
         if (key == "processes"){
           totalprocesses = std::stoi(t_process);//change string into int
@@ -199,12 +198,14 @@ int LinuxParser::RunningProcesses() {
   int runningprocesses;
   string key, r_process, line;
   std::ifstream stream(kProcDirectory + kStatFilename);
-  if (stream.is_open()){
-    while (std::getline(stream, line){
-      std::isstringstream linestream(line);
+  if (stream.is_open())
+  {
+    while (std::getline(stream, line)){
+      std::istringstream linestream(line);
       while (linestream >> key >> r_process){
-        if (key == "processes"){
-          runningprocesses = std::stoi(t_process);//change string into int
+        if (key == "processes")
+        {
+          runningprocesses = std::stoi(r_process);//change string into int
           return runningprocesses;
         }
       }
@@ -216,7 +217,7 @@ int LinuxParser::RunningProcesses() {
 // TODO: Read and return the command associated with a process
 string LinuxParser::Command(int pid) { 
   string cmd;
-  std::ifstream stream(kprocDirectory + to_string(pid) + kCmdlineFilename);
+  std::ifstream stream(kProcDirectory + to_string(pid) + kCmdlineFilename);
   if (stream.is_open()){
     std::getline(stream, cmd);
     return cmd;
@@ -227,8 +228,8 @@ string LinuxParser::Command(int pid) {
 // TODO: Read and return the memory used by a process
 string LinuxParser::Ram(int pid[[maybe_unused]]) { 
   string line, key, value;
-  std:stringstream ram;
-  std:ifstream stream(kprocDirectory + to_string(pid) + kCmdlineFilename);
+  std::stringstream ram;
+  std::ifstream stream(kProcDirectory + to_string(pid) + kCmdlineFilename);
   if (stream.is_open()){
     while (std::getline(stream, line)){
       std::istringstream linestream(line);
@@ -266,7 +267,7 @@ string LinuxParser::User(int pid) {
   string line, key, x, value;
   std::ifstream stream(kPasswordPath);
   if (stream.is_open()){
-    while (std::getline(steam, line){
+    while (std::getline(stream, line)){
       std::replace(line.begin(),line.end(), ':', ' ');
       std::istringstream linestream(line);
       linestream >> key >> x >> value;
@@ -287,7 +288,7 @@ long LinuxParser::UpTime(int pid) {
     std::getline(stream, line);
     std::istringstream linestream(line);
     int i = 0;
-    while (linesteam >> value){
+    while (linestream >> value){
       if (i == 21){
         return stol(value) / sysconf(_SC_CLK_TCK);
       }
