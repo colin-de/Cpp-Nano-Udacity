@@ -13,6 +13,7 @@ using std::to_string;
 using std::vector;
 using std::stol;
 
+Process::Process(int pid){Process::pid_ = pid;}
 // TODO: Return this process's ID
 int Process::Pid() { return pid_; }
 
