@@ -16,12 +16,14 @@ string Format::ElapsedTime(long seconds) {
   mm = seconds / 60;
   ss = seconds % 60;
   
-  if (hh < 10) {
+  if (hh < 10) 
+  {
     time = "0";
   }
-  time == to_string(hh) + ":";
+  time += to_string(hh) + ":";
   
-  if (mm < 10){
+  if (mm < 10)
+  {
     time += "0";
   }
   time += to_string(mm) + ":";
