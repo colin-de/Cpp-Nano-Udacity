@@ -148,21 +148,42 @@ long LinuxParser::IdleJiffies() {
   return total; 
 }
 
-// Read and return CPU utilization
-vector<string> LinuxParser::CpuUtilization() { 
-  string value, line;
-  vector<string> cpuValues;
+
+// // Read and return CPU utilization
+// vector<string> LinuxParser::CpuUtilization() { 
+//   string value, line;
+//   vector<string> cpuValues;
+//   std::ifstream stream(kProcDirectory + kStatFilename);
+//   if (stream.is_open()) {
+//     std::getline(stream, line);
+//     std::istringstream linestream(line);
+//     while (linestream >> value) {
+//       if (value != "cpu") {
+//         cpuValues.push_back(value);
+//       }
+//     }
+//   }
+//   return cpuValues;
+// }
+vector<string> LinuxParser::CpuUtilization() {
+  vector<string> cpu_utilization;
+  string key;
+  string line;
   std::ifstream stream(kProcDirectory + kStatFilename);
   if (stream.is_open()) {
-    std::getline(stream, line);
-    std::istringstream linestream(line);
-    while (linestream >> value) {
-      if (value != "cpu") {
-        cpuValues.push_back(value);
+      while (std::getline(stream, line)) {
+        std::istringstream linestream(line);
+        linestream >> key;
+        if ("cpu" == key) {
+            while(linestream >> key) {
+                cpu_utilization.emplace_back(key);
+                // std::cout << "cpu_utilization.back(): " << cpu_utilization.back() << std::endl;
+            }
+        }
       }
-    }
   }
-  return cpuValues;
+
+  return cpu_utilization;
 }
 
 // Read /proc/stat file and return value corresponding to key

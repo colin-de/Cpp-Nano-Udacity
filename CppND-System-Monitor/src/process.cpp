@@ -18,12 +18,20 @@ Process::Process(int pid){Process::pid_ = pid;}
 int Process::Pid() { return pid_; }
 
 // TODO: Return this process's CPU utilization
+// float Process::CpuUtilization() { 
+//   long totalTime = LinuxParser::ActiveJiffies(pid_);
+//   long startTime = LinuxParser::UpTime(pid_);
+//   long upTime = LinuxParser::UpTime();
+//   long seconds = upTime - (startTime / sysconf(_SC_CLK_TCK));
+//   return (totalTime / sysconf(_SC_CLK_TCK)) / seconds; 
+// }
+
 float Process::CpuUtilization() { 
-  long totalTime = LinuxParser::ActiveJiffies(pid_);
-  long startTime = LinuxParser::UpTime(pid_);
-  long upTime = LinuxParser::UpTime();
-  long seconds = upTime - (startTime / sysconf(_SC_CLK_TCK));
-  return (totalTime / sysconf(_SC_CLK_TCK)) / seconds; 
+  long totaltime=LinuxParser::ActiveJiffies(pid_);
+  long seconds=(LinuxParser::UpTime())-(LinuxParser::UpTime(pid_));
+  float cpususage = ((float)totaltime/sysconf(_SC_CLK_TCK))/(float)seconds;
+  return cpususage;
+  
 }
 
 // TODO: Return the command that generated this process
