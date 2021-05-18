@@ -42,13 +42,13 @@ process.h
 processor.h
 ../include/processor.h
 
-/home/ubuntu/environment/CppND-System-Monitor/src/format.cpp
+/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/src/format.cpp
 string
 -
 format.h
-/home/ubuntu/environment/CppND-System-Monitor/src/format.h
+/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/src/format.h
 
-/home/ubuntu/environment/CppND-System-Monitor/src/linux_parser.cpp
+/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/src/linux_parser.cpp
 dirent.h
 -
 unistd.h
@@ -62,15 +62,15 @@ iostream
 iomanip
 -
 linux_parser.h
-/home/ubuntu/environment/CppND-System-Monitor/src/linux_parser.h
+/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/src/linux_parser.h
 
-/home/ubuntu/environment/CppND-System-Monitor/src/main.cpp
+/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/src/main.cpp
 ncurses_display.h
-/home/ubuntu/environment/CppND-System-Monitor/src/ncurses_display.h
+/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/src/ncurses_display.h
 system.h
-/home/ubuntu/environment/CppND-System-Monitor/src/system.h
+/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/src/system.h
 
-/home/ubuntu/environment/CppND-System-Monitor/src/ncurses_display.cpp
+/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/src/ncurses_display.cpp
 curses.h
 -
 chrono
@@ -82,13 +82,13 @@ thread
 vector
 -
 format.h
-/home/ubuntu/environment/CppND-System-Monitor/src/format.h
+/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/src/format.h
 ncurses_display.h
-/home/ubuntu/environment/CppND-System-Monitor/src/ncurses_display.h
+/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/src/ncurses_display.h
 system.h
-/home/ubuntu/environment/CppND-System-Monitor/src/system.h
+/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/src/system.h
 
-/home/ubuntu/environment/CppND-System-Monitor/src/process.cpp
+/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/src/process.cpp
 unistd.h
 -
 cctype
@@ -102,19 +102,19 @@ vector
 iostream
 -
 process.h
-/home/ubuntu/environment/CppND-System-Monitor/src/process.h
+/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/src/process.h
 linux_parser.h
-/home/ubuntu/environment/CppND-System-Monitor/src/linux_parser.h
+/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/src/linux_parser.h
 
-/home/ubuntu/environment/CppND-System-Monitor/src/processor.cpp
+/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/src/processor.cpp
 processor.h
-/home/ubuntu/environment/CppND-System-Monitor/src/processor.h
+/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/src/processor.h
 linux_parser.h
-/home/ubuntu/environment/CppND-System-Monitor/src/linux_parser.h
+/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/src/linux_parser.h
 unistd.h
 -
 
-/home/ubuntu/environment/CppND-System-Monitor/src/system.cpp
+/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/src/system.cpp
 unistd.h
 -
 cstddef
@@ -126,11 +126,11 @@ string
 vector
 -
 process.h
-/home/ubuntu/environment/CppND-System-Monitor/src/process.h
+/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/src/process.h
 processor.h
-/home/ubuntu/environment/CppND-System-Monitor/src/processor.h
+/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/src/processor.h
 system.h
-/home/ubuntu/environment/CppND-System-Monitor/src/system.h
+/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/src/system.h
 linux_parser.h
-/home/ubuntu/environment/CppND-System-Monitor/src/linux_parser.h
+/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/src/linux_parser.h
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/environment/CppND-System-Monitor
+# Install script for directory: /home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ubuntu/environment/CppND-System-Monitor/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
