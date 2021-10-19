@@ -1,3 +1,3 @@
-/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/build/CMakeFiles/rebuild_cache.dir
-/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/build/CMakeFiles/monitor.dir
-/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/build/CMakeFiles/edit_cache.dir
+/home/lwh/Cpp-Nano-Udacity/CppND-System-Monitor/build/CMakeFiles/rebuild_cache.dir
+/home/lwh/Cpp-Nano-Udacity/CppND-System-Monitor/build/CMakeFiles/monitor.dir
+/home/lwh/Cpp-Nano-Udacity/CppND-System-Monitor/build/CMakeFiles/edit_cache.dir

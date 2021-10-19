@@ -1,28 +1,18 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lwh/Desktop/Projekt/Cpp-Nano-Udacity/CppND-Memory-Management-Chatbot/src/chatbot.cpp" "/home/lwh/Desktop/Projekt/Cpp-Nano-Udacity/CppND-Memory-Management-Chatbot/build/CMakeFiles/membot.dir/src/chatbot.cpp.o"
-  "/home/lwh/Desktop/Projekt/Cpp-Nano-Udacity/CppND-Memory-Management-Chatbot/src/chatgui.cpp" "/home/lwh/Desktop/Projekt/Cpp-Nano-Udacity/CppND-Memory-Management-Chatbot/build/CMakeFiles/membot.dir/src/chatgui.cpp.o"
-  "/home/lwh/Desktop/Projekt/Cpp-Nano-Udacity/CppND-Memory-Management-Chatbot/src/chatlogic.cpp" "/home/lwh/Desktop/Projekt/Cpp-Nano-Udacity/CppND-Memory-Management-Chatbot/build/CMakeFiles/membot.dir/src/chatlogic.cpp.o"
-  "/home/lwh/Desktop/Projekt/Cpp-Nano-Udacity/CppND-Memory-Management-Chatbot/src/graphedge.cpp" "/home/lwh/Desktop/Projekt/Cpp-Nano-Udacity/CppND-Memory-Management-Chatbot/build/CMakeFiles/membot.dir/src/graphedge.cpp.o"
-  "/home/lwh/Desktop/Projekt/Cpp-Nano-Udacity/CppND-Memory-Management-Chatbot/src/graphnode.cpp" "/home/lwh/Desktop/Projekt/Cpp-Nano-Udacity/CppND-Memory-Management-Chatbot/build/CMakeFiles/membot.dir/src/graphnode.cpp.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_CXX
-  "WXUSINGDLL"
-  "_FILE_OFFSET_BITS=64"
-  "__WXGTK__"
   )
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/lib/x86_64-linux-gnu/wx/include/gtk2-unicode-3.0"
-  "/usr/include/wx-3.0"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/lwh/Cpp-Nano-Udacity/CppND-Memory-Management-Chatbot/src/chatbot.cpp" "CMakeFiles/membot.dir/src/chatbot.cpp.o" "gcc" "CMakeFiles/membot.dir/src/chatbot.cpp.o.d"
+  "/home/lwh/Cpp-Nano-Udacity/CppND-Memory-Management-Chatbot/src/chatgui.cpp" "CMakeFiles/membot.dir/src/chatgui.cpp.o" "gcc" "CMakeFiles/membot.dir/src/chatgui.cpp.o.d"
+  "/home/lwh/Cpp-Nano-Udacity/CppND-Memory-Management-Chatbot/src/chatlogic.cpp" "CMakeFiles/membot.dir/src/chatlogic.cpp.o" "gcc" "CMakeFiles/membot.dir/src/chatlogic.cpp.o.d"
+  "/home/lwh/Cpp-Nano-Udacity/CppND-Memory-Management-Chatbot/src/graphedge.cpp" "CMakeFiles/membot.dir/src/graphedge.cpp.o" "gcc" "CMakeFiles/membot.dir/src/graphedge.cpp.o.d"
+  "/home/lwh/Cpp-Nano-Udacity/CppND-Memory-Management-Chatbot/src/graphnode.cpp" "CMakeFiles/membot.dir/src/graphnode.cpp.o" "gcc" "CMakeFiles/membot.dir/src/graphnode.cpp.o.d"
   )
 
 # Targets to which this target links.

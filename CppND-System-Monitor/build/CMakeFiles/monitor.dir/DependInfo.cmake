@@ -1,22 +1,20 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
   )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/src/format.cpp" "/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/build/CMakeFiles/monitor.dir/src/format.cpp.o"
-  "/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/src/linux_parser.cpp" "/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/build/CMakeFiles/monitor.dir/src/linux_parser.cpp.o"
-  "/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/src/main.cpp" "/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/build/CMakeFiles/monitor.dir/src/main.cpp.o"
-  "/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/src/ncurses_display.cpp" "/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/build/CMakeFiles/monitor.dir/src/ncurses_display.cpp.o"
-  "/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/src/process.cpp" "/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/build/CMakeFiles/monitor.dir/src/process.cpp.o"
-  "/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/src/processor.cpp" "/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/build/CMakeFiles/monitor.dir/src/processor.cpp.o"
-  "/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/src/system.cpp" "/home/lwh/Desktop/Projekt/Cpp-Nano-Udacitynew/CppND-System-Monitor/build/CMakeFiles/monitor.dir/src/system.cpp.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../include"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/lwh/Cpp-Nano-Udacity/CppND-System-Monitor/src/format.cpp" "CMakeFiles/monitor.dir/src/format.cpp.o" "gcc" "CMakeFiles/monitor.dir/src/format.cpp.o.d"
+  "/home/lwh/Cpp-Nano-Udacity/CppND-System-Monitor/src/linux_parser.cpp" "CMakeFiles/monitor.dir/src/linux_parser.cpp.o" "gcc" "CMakeFiles/monitor.dir/src/linux_parser.cpp.o.d"
+  "/home/lwh/Cpp-Nano-Udacity/CppND-System-Monitor/src/main.cpp" "CMakeFiles/monitor.dir/src/main.cpp.o" "gcc" "CMakeFiles/monitor.dir/src/main.cpp.o.d"
+  "/home/lwh/Cpp-Nano-Udacity/CppND-System-Monitor/src/ncurses_display.cpp" "CMakeFiles/monitor.dir/src/ncurses_display.cpp.o" "gcc" "CMakeFiles/monitor.dir/src/ncurses_display.cpp.o.d"
+  "/home/lwh/Cpp-Nano-Udacity/CppND-System-Monitor/src/process.cpp" "CMakeFiles/monitor.dir/src/process.cpp.o" "gcc" "CMakeFiles/monitor.dir/src/process.cpp.o.d"
+  "/home/lwh/Cpp-Nano-Udacity/CppND-System-Monitor/src/processor.cpp" "CMakeFiles/monitor.dir/src/processor.cpp.o" "gcc" "CMakeFiles/monitor.dir/src/processor.cpp.o.d"
+  "/home/lwh/Cpp-Nano-Udacity/CppND-System-Monitor/src/system.cpp" "CMakeFiles/monitor.dir/src/system.cpp.o" "gcc" "CMakeFiles/monitor.dir/src/system.cpp.o.d"
   )
 
 # Targets to which this target links.
