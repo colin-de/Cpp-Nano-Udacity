@@ -18,6 +18,7 @@ enum class State { kEmpty, kObstacle, kClosed, kPath, kStart, kFinish };
 // directional deltas
 const int delta[4][2]{ {-1, 0}, {0, -1}, {1, 0}, {0, 1} };
 
+//parse the data from board it into State emptly or obstacle
 vector<State> ParseLine(string line) {
     istringstream sline(line);
     int n;
@@ -34,7 +35,7 @@ vector<State> ParseLine(string line) {
     return row;
 }
 
-
+//read the file from board
 vector<vector<State>> ReadBoardFile(string path) {
     ifstream myfile(path);
     vector<vector<State>> board{};
@@ -65,7 +66,6 @@ void CellSort(vector<vector<int>>* v) {
 int Heuristic(int x1, int y1, int x2, int y2) {
     return abs(x2 - x1) + abs(y2 - y1);
 }
-
 
 // Check that the cell is on the grid and not an obstacle (i.e. equals kEmpty).
 bool CheckValidCell(int x, int y, 
