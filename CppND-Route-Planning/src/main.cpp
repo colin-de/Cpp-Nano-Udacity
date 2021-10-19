@@ -7,7 +7,13 @@
 #include "route_model.h"
 #include "render.h"
 #include "route_planner.h"
-
+"""
+THe OSM data is read into the program
+A RouteModel stores the OSM data in usable data stucture
+A RoutePlanner created through RouteModel will carry out the A* search 
+on the model data and store the results in the RouteModel
+The RouteModel data is rendered using the IO2D library
+"""
 using namespace std::experimental;
 
 static std::optional<std::vector<std::byte>> ReadFile(const std::string &path)
@@ -52,14 +58,12 @@ int main(int argc, const char **argv)
             osm_data = std::move(*data);
     }
     
-    // TODO 1: Declare floats `start_x`, `start_y`, `end_x`, and `end_y` and get
-    // user input for these values using std::cin. Pass the user input to the
-    // RoutePlanner object below in place of 10, 10, 90, 90.
     float start_x, start_y, end_x, end_y;
     std::cin >> start_x;
     std::cin >> start_y;
     std::cin >> end_x;
     std::cin >> end_y;
+    
     // Build Model.
     RouteModel model{osm_data};
 
