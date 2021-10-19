@@ -36,7 +36,7 @@ int main(int argc, const char **argv)
                 osm_data_file = argv[i];
     }
     else {
-        std::cout << "To specify a map file use the following format: " << std::endl;
+        std::cout << "To specify a map1 file use the following format: " << std::endl;
         std::cout << "Usage: [executable] [-f filename.osm]" << std::endl;
         osm_data_file = "../map.osm";
     }
