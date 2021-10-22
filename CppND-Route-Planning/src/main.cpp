@@ -7,6 +7,7 @@
 #include "route_model.h"
 #include "render.h"
 #include "route_planner.h"
+
 """
 THe OSM data is read into the program
 A RouteModel stores the OSM data in usable data stucture
@@ -34,7 +35,8 @@ static std::optional<std::vector<std::byte>> ReadFile(const std::string &path)
 }
 
 int main(int argc, const char **argv)
-{    
+{   
+    // parse commandline argument 
     std::string osm_data_file = "";
     if( argc > 1 ) {
         for( int i = 1; i < argc; ++i )
@@ -77,6 +79,7 @@ int main(int argc, const char **argv)
     // Render results of search.
     Render render{model};
 
+    // IO2D code to display
     auto display = io2d::output_surface{400, 400, io2d::format::argb32, io2d::scaling::none, io2d::refresh_style::fixed, 30};
     display.size_change_callback([](io2d::output_surface& surface){
         surface.dimensions(surface.display_dimensions());

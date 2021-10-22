@@ -3,7 +3,6 @@
 
 RoutePlanner::RoutePlanner(RouteModel &model, float start_x, float start_y, float end_x, float end_y): m_Model(model) {
     // Convert inputs to percentage:
-    //m_Model = model
     start_x *= 0.01;
     start_y *= 0.01;
     end_x *= 0.01;
@@ -35,7 +34,6 @@ float RoutePlanner::CalculateHValue(const RouteModel::Node *node) {
 // - For each node in current_node.neighbors, add the neighbor to open_list and set the node's visited attribute to true.
 
 void RoutePlanner::AddNeighbors(RouteModel::Node *current_node) {
-    //*current_node.FindNeighbors();
     current_node->RouteModel::Node::FindNeighbors();
     for (RouteModel::Node *neighbor : current_node->neighbors){
          neighbor->parent = current_node;
