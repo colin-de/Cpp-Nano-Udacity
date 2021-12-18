@@ -8,13 +8,13 @@
 #include "render.h"
 #include "route_planner.h"
 
-"""
-THe OSM data is read into the program
-A RouteModel stores the OSM data in usable data stucture
-A RoutePlanner created through RouteModel will carry out the A* search 
-on the model data and store the results in the RouteModel
-The RouteModel data is rendered using the IO2D library
-"""
+// 
+// THe OSM data is read into the program
+// A RouteModel stores the OSM data in usable data stucture
+// A RoutePlanner created through RouteModel will carry out the A* search 
+// on the model data and store the results in the RouteModel
+// The RouteModel data is rendered using the IO2D library
+// 
 using namespace std::experimental;
 
 static std::optional<std::vector<std::byte>> ReadFile(const std::string &path)
