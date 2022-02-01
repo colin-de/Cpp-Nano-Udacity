@@ -22,11 +22,11 @@ int main()
     t2.join();
 
     // print name from main
-    """
-    With t1, name1 is copied by value, which allows us to print name1 even after join has been called. 
-    With t2, name2 is passed to the thread function using move semantics, 
-    which means that it is not available any more after join has been called on t2.
-    """
+    
+    // With t1, name1 is copied by value, which allows us to print name1 even after join has been called. 
+    // With t2, name2 is passed to the thread function using move semantics, 
+    // which means that it is not available any more after join has been called on t2.
+    
     std::cout << "Name (from Main) = " << name1 << std::endl;
     std::cout << "Name (from Main) = " << name2 << std::endl;
 

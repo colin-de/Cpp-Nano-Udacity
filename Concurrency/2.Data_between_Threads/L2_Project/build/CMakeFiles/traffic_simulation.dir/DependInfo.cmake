@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/lwh/Desktop/Concurrency/2.Data_between_Threads/L2_Project/src/Graphics.cpp" "CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.o" "gcc" "CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.o.d"
-  "/home/lwh/Desktop/Concurrency/2.Data_between_Threads/L2_Project/src/Intersection.cpp" "CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.o" "gcc" "CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.o.d"
-  "/home/lwh/Desktop/Concurrency/2.Data_between_Threads/L2_Project/src/Street.cpp" "CMakeFiles/traffic_simulation.dir/src/Street.cpp.o" "gcc" "CMakeFiles/traffic_simulation.dir/src/Street.cpp.o.d"
-  "/home/lwh/Desktop/Concurrency/2.Data_between_Threads/L2_Project/src/TrafficObject.cpp" "CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.o" "gcc" "CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.o.d"
-  "/home/lwh/Desktop/Concurrency/2.Data_between_Threads/L2_Project/src/TrafficSimulator-L2.cpp" "CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L2.cpp.o" "gcc" "CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L2.cpp.o.d"
-  "/home/lwh/Desktop/Concurrency/2.Data_between_Threads/L2_Project/src/Vehicle.cpp" "CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.o" "gcc" "CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.o.d"
+  "/home/lwh/Desktop/Cpp-Nano/Concurrency/2.Data_between_Threads/L2_Project/src/Graphics.cpp" "CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.o" "gcc" "CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.o.d"
+  "/home/lwh/Desktop/Cpp-Nano/Concurrency/2.Data_between_Threads/L2_Project/src/Intersection.cpp" "CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.o" "gcc" "CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.o.d"
+  "/home/lwh/Desktop/Cpp-Nano/Concurrency/2.Data_between_Threads/L2_Project/src/Street.cpp" "CMakeFiles/traffic_simulation.dir/src/Street.cpp.o" "gcc" "CMakeFiles/traffic_simulation.dir/src/Street.cpp.o.d"
+  "/home/lwh/Desktop/Cpp-Nano/Concurrency/2.Data_between_Threads/L2_Project/src/TrafficObject.cpp" "CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.o" "gcc" "CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.o.d"
+  "/home/lwh/Desktop/Cpp-Nano/Concurrency/2.Data_between_Threads/L2_Project/src/TrafficSimulator-L2.cpp" "CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L2.cpp.o" "gcc" "CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L2.cpp.o.d"
+  "/home/lwh/Desktop/Cpp-Nano/Concurrency/2.Data_between_Threads/L2_Project/src/Vehicle.cpp" "CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.o" "gcc" "CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.o.d"
   )
 
 # Targets to which this target links.

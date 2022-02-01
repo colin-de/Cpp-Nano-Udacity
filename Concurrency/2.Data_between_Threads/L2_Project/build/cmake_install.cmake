@@ -1,4 +1,4 @@
-# Install script for directory: /home/lwh/Desktop/Concurrency/2.Data_between_Threads/L2_Project
+# Install script for directory: /home/lwh/Desktop/Cpp-Nano/Concurrency/2.Data_between_Threads/L2_Project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/lwh/Desktop/Concurrency/2.Data_between_Threads/L2_Project/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/lwh/Desktop/Cpp-Nano/Concurrency/2.Data_between_Threads/L2_Project/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

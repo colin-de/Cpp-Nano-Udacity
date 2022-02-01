@@ -1,5 +1,5 @@
 CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.o: \
- /home/lwh/Desktop/Concurrency/2.Data_between_Threads/L2_Project/src/Graphics.cpp \
+ /home/lwh/Desktop/Cpp-Nano/Concurrency/2.Data_between_Threads/L2_Project/src/Graphics.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/7/iostream \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \
@@ -236,9 +236,9 @@ CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.o: \
  /usr/local/include/opencv4/opencv2/highgui.hpp \
  /usr/local/include/opencv4/opencv2/imgcodecs.hpp \
  /usr/local/include/opencv4/opencv2/videoio.hpp \
- /home/lwh/Desktop/Concurrency/2.Data_between_Threads/L2_Project/src/Graphics.h \
- /home/lwh/Desktop/Concurrency/2.Data_between_Threads/L2_Project/src/TrafficObject.h \
+ /home/lwh/Desktop/Cpp-Nano/Concurrency/2.Data_between_Threads/L2_Project/src/Graphics.h \
+ /home/lwh/Desktop/Cpp-Nano/Concurrency/2.Data_between_Threads/L2_Project/src/TrafficObject.h \
  /usr/include/c++/7/thread \
- /home/lwh/Desktop/Concurrency/2.Data_between_Threads/L2_Project/src/Intersection.h \
+ /home/lwh/Desktop/Cpp-Nano/Concurrency/2.Data_between_Threads/L2_Project/src/Intersection.h \
  /usr/include/c++/7/future /usr/include/c++/7/condition_variable \
  /usr/include/c++/7/atomic /usr/include/c++/7/bits/atomic_futex.h

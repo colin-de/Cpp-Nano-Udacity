@@ -1,5 +1,5 @@
 CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.o: \
- /home/lwh/Desktop/Concurrency/2.Data_between_Threads/L2_Project/src/TrafficObject.cpp \
+ /home/lwh/Desktop/Cpp-Nano/Concurrency/2.Data_between_Threads/L2_Project/src/TrafficObject.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/7/iostream \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \
@@ -140,7 +140,7 @@ CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.o: \
  /usr/include/c++/7/bits/stl_heap.h /usr/include/c++/7/bits/stl_tempbuf.h \
  /usr/include/c++/7/bits/stl_construct.h \
  /usr/include/c++/7/bits/uniform_int_dist.h \
- /home/lwh/Desktop/Concurrency/2.Data_between_Threads/L2_Project/src/TrafficObject.h \
+ /home/lwh/Desktop/Cpp-Nano/Concurrency/2.Data_between_Threads/L2_Project/src/TrafficObject.h \
  /usr/include/c++/7/vector /usr/include/c++/7/bits/stl_uninitialized.h \
  /usr/include/c++/7/bits/stl_vector.h \
  /usr/include/c++/7/bits/stl_bvector.h /usr/include/c++/7/bits/vector.tcc \
